@@ -1,0 +1,15 @@
+names:
+- Traffic Light -Green-
+- Traffic Light -Off-
+- Traffic Light -Red-
+- Traffic Light -Yellow-
+nc: 4
+roboflow:
+  license: CC BY 4.0
+  project: trafic_lights_detection
+  url: https://universe.roboflow.com/bolbol-duawh/trafic_lights_detection/dataset/3
+  version: 3
+  workspace: bolbol-duawh
+test: ../test/images
+train: ../train/images
+val: ../valid/images
